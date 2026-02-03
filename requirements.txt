@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+openai
+langchain
+python-dotenv
+langchain_openai
+langgraph
+geopy
+fastapi
+uvicorn
