@@ -21,7 +21,8 @@ Key features include transaction amount, category, merchant, user demographics, 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8ee2a11c-84a7-4db9-8de9-7783c1ffd8ae" />
 
 
-flowchart TD
+```mermaid
+    flowchart TD
     A[Raw Transaction Data] --> B[Data Cleaning & Preprocessing]
     B --> C[Exploratory Data Analysis]
     C --> D[Handle Class Imbalance]
@@ -30,6 +31,7 @@ flowchart TD
     F --> G[Model Evaluation]
     G --> H[Model Persistence]
     H --> I[Prediction Interface Integration]
+```
 
 
 
